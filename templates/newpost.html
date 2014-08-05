@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>New Post</title>
+<style>
+textarea{
+height: 200px;
+width: 800px;
+}
+</style>
+
+</head>
+<body>
+<form method='post'>
+<center><h1> Fatema Blog </h1></center>
+<h3> New post </h3>
+<div>
+<lable>subject<br> <input  name='subject' value={{subject}}></lable>
+</div>
+<div>
+<lable>blog <br><textarea name='content'>{{content}}</textarea></lable>
+</div>
+<br/>
+ <div class="error">{{error}}</div>
+ <input type="submit">
+</body>
+</html>
